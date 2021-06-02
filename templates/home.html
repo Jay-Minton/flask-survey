@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %} Survey Home! {% endblock %}
+{% block head %} {{ super() }} {% endblock %}
+{% block content %} 
+<h1>It's Survey Time!</h1>
+<form action = "/begin" method="POST">
+    <button>Start!</button>
+</form>
+{% endblock %}
